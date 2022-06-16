@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(backg.png);
+    font-family: url(https://fonts.google.com/specimen/Poppins);
+    font-size: 16px;
+    background-color: rgb(235, 124, 142);
+    color: azure;
+    overflow: hidden;
+}
+
+.b1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0px 15em;
+}
+
+.b2{
+    width: 40%;
+    margin: 8px 0px;
+    padding-right: 15px;
+}
+
+.b3{
+    display: inline-block;
+    width: 40%;
+}
+
+a{
+    display:inline-block;
+    text-decoration: none;
+    background-color: hsl(248, 32%, 49%);
+    color: azure;
+    border-radius: 5px;
+    padding: 12px 15px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 7px rgba(37, 32, 32, 0.247);
+}
+
+a:hover{
+    background-color: hsl(249, 10%, 26%);
+}
+
+.b4{
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0px;
+    background-color: white;
+    box-shadow: 0px 7px rgba(37, 32, 32, 0.247);
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid hsl(246, 32%, 49%);
+    font-size: large;
+    border-radius: 5px;
+    margin: 8px 0px;
+    outline: none;
+}
+
+input[type=text]:focus, [type=email]:focus, [type=password]:focus{
+    border: 1px solid rgb(255, 228, 72);
+}
+
+#submit {
+    border: none;
+    box-shadow: 0px 5px rgba(37, 32, 32, 0.247);
+    color: azure;
+    background-color: hsl(154, 59%, 51%);
+    cursor: pointer;
+}
+
+@media (max-width: 1440px){
+    body{
+        overflow: auto;
+    }
+    .b1{
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+        height: auto;
+    }
+}

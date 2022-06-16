@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        @import url('https//fonts.googleapis.com/css2?family=Big+shoulders+display:wght@700&display=swap');
+        body{
+            background-color: hsla(0, 0%, 95%);
+            overflow: hidden;
+            font-size: 15px;
+            font-weight:700;
+        }
+        h2{
+            color: hsla(0, 0%, 95%);
+        }
+        .g{
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            padding:300px;
+            width: 100%;
+        }
+        p{
+            color: hsla(0, 0%, 100%, 0.75);
+        }
+        .g1{
+            background-color: hsl(31, 77%, 52%);
+            padding: 3em 2em;
+            border-radius: 7px 0px 0px 7px;
+        }
+        .g2{
+            background-color: hsl(184, 100%, 22%);
+            padding: 3em 2em;
+            border-radius: 0px 0px 0px 0px;
+        }
+        .g3{
+            background-color: hsl(179, 100%, 13%);
+            padding: 3em 2em;
+            border-radius: 0px 7px 7px 0px;
+        }
+
+        a{
+            text-decoration: none;
+            text-align: center;
+            background-color: hsla(0, 0%, 95%);
+            padding: 10px 25px;
+            border-radius: 30px;
+        }
+        #a1{
+            color: hsl(31, 77%, 52%);
+        }
+        #a1:hover{
+            background-color: hsl(31, 77%, 52%);
+            color: hsla(0, 0%, 95%);
+            border: 1px solid hsla(0, 0%, 95%);
+        }
+        #a2{
+            color: hsl(184, 100%, 22%);
+        }
+        #a2:hover{
+            background-color: hsl(184, 100%, 22%);
+            color: hsla(0, 0%, 95%);
+            border: 1px solid hsla(0, 0%, 95%);
+        }
+        #a3{
+            color: hsl(179, 100%, 13%);
+        }
+        #a3:hover{
+            background-color: hsl(179, 100%, 13%);
+            color: hsla(0, 0%, 95%);
+            border: 1px solid hsla(0, 0%, 95%);
+        }
+        @media screen and (max-width:1440px) and (min-width:375px) {
+            .g{
+                display: block;
+                overflow: auto;
+                font-weight: 400;
+                padding: 100px;
+            }
+            @import url('https//fonts.googleapis.com/css2?family=Lexend+deca&display=swap');
+            .g1{
+                border-radius: 7px 7px 0px 0px;
+            }
+            .g3{
+                border-radius: 0px 0px 7px 7px;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="g">
+        <div class="g1">
+            <img src="icon-sedans.svg" alt="">
+            <h2>SEDANS</h2>
+            <br>
+            
+            <p>Choose a Sedan for is affordability and excellent fuel economy. Ideal for cruising in the ciy or on your next road trip.</p>
+            <br>
+            <br>
+            <br>
+            <a href="" id="a1">Learn More</a>
+        </div>
+        <div class="g2">
+            <img src="icon-suvs.svg" alt="">
+            <h2>SUVS</h2>
+            <br>
+            <p>Take an SUV for its spacious interior, power and versatility. Perfect for your nex family vacation and off-road adventures.</p>
+            <br>
+            <br>
+            <br>
+            <a href="" id="a2">Learn More</a>
+        </div>
+        <div class="g3">
+            <img src="icon-luxury.svg" alt="">
+            <h2>LUXURY</h2>
+            <br>
+            <p>Cruise in the bes car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+            <br>
+            <br>
+            <br>
+            <a href="" id="a3">Learn More</a>
+        </div>
+    </div>
+</body>
+</html>
